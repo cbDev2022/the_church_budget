@@ -1,0 +1,368 @@
+:root {
+  --primary-color: rgb(216,167,39);
+  --secondary-color: rgb(10,29,55);
+}
+
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4 {
+  position: relative;
+  opacity: 0.80;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.pimg1 {
+  background-image: url("../images/getty_664731514_351704.jpg");
+  height: 800px;
+}
+
+.pimg2 {
+  background-image: url("../images/AI-accounting-finance-blog-min-1-1.jpg");
+  min-height: 500px;
+}
+
+.pimg3 {
+  background-image: url("../images/cpa.jpeg");
+  min-height: 500px;
+}
+
+.pimg4 {
+  background-image: url("../images/getty_664731514_351704.jpg");
+  height: 500px;
+}
+
+.header {
+  overflow: hidden;
+  padding: 20px 10px;
+  top: 0;
+  display: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  height: 150px;
+  z-index: 9999;
+  border-bottom: solid 5px var(--primary-color);
+}
+
+.header a {
+  float: left;
+  color: var(--secondary-color);
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.header a:hover {
+  text-decoration: underline ;
+  color: var(--primary-color);
+  font-size: 20px;
+}
+
+#header-right {
+  float: right;
+  display: flex;
+  position: relative; 
+  top: 30px;
+}
+
+.logo img {
+  height: 100px;
+}
+
+.logo-mobile {
+  display: none;
+}
+
+#mobile {
+  display: none;
+}
+
+.hero img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.hero h1 {
+  color: white;
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 70px;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 3px 3px black;
+}
+
+.container {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 75px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: transparent;
+}
+
+.container-mission {
+  padding-left: 20px;
+}
+
+.container-why-us {
+  padding-right: 20px;
+}
+
+.container-plans {
+  margin-top: 100px;
+}
+
+.container h2 {
+  color: var(--secondary-color);
+  padding-top: 12px;
+  font-size: 40px;
+  font-weight: bolder;
+  text-decoration: underline var(--primary-color);
+}
+
+.leftAlign {
+  text-align: left;
+}
+
+.rightAlign {
+  text-align: right;
+}
+
+.container p, ul {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  list-style: none;
+  color: black;
+  margin: 20px 0px 50px 0px;
+}
+
+.logo-stacked img {
+  height: 300px;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.row div {
+  padding: 25px;
+}
+
+.footer {
+  background: var(--secondary-color);
+  padding: 20px 20px 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  list-style: none;
+  bottom: 0px;
+  border-top: solid 5px var(--primary-color);
+}
+
+.footer-icons img {
+  height: 25px;
+  margin: 10px;
+}
+
+.footer-links {
+  position: absolute;
+  left: 500px;
+  font-size: 14px;
+  line-height: 2.5;
+  font-weight: bold;
+  color: white;
+}
+
+.contact-info {
+  position: absolute;
+  left: 80px;
+  font-size: 18px;
+  line-height: 2.5;
+  font-weight: bold;
+  color: white;
+}
+
+.icons img {
+  max-height: 100px;
+}
+
+.plan-options a {
+  color: var(--primary-color);
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+}
+
+.plan-options a:hover {
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+.cpa img {
+  max-height: 400px;
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  margin-bottom: 50px;
+  height: 600px;
+  overflow-y: auto;
+  overflow-x: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: center;
+}
+
+
+td, th {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  font-size: 20px;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+td {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+table p {
+  font-size: 16px;
+  font-weight: 200;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(216, 167, 39);
+}
+
+.checkbox {
+  height: 20px;
+}
+
+table h3 {
+  font-size: 20px;
+}
+
+.frequency {
+  text-decoration: underline;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 930px) {
+  .header {
+    display: center;
+    width: 100%;
+  }
+
+  .header a {
+    float: none;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .header-right {
+    display: flex;
+    float: none;
+    align-content: center;
+    justify-content: center;
+    position: fixed;
+    left: 30%;
+    top: 100px;
+  }
+
+  .logo img {
+    display: flex;
+    height: 60px;
+    position: fixed;
+    left: 33%;
+  }
+
+  .cpa img {
+    max-height: 300px;
+  }
+}
+
+@media screen and (max-width: 545px) {
+  .header {
+    display: center;
+    width: 100%;
+    display: flex;
+    height: 300px;
+  }
+
+  .header a {
+    float: none;
+    display: flex;
+    text-align: center;
+  }
+  
+  #header-right {
+    display: none;
+  }
+
+  .logo img {
+    display: none;
+  }
+
+  .logo-mobile {
+    display: flex;
+    height: 100px;
+    margin-top: 35px;
+  }
+
+  .cpa img {
+    max-height: 200px;
+  }
+
+  .logo-stacked img {
+    height: 200px;
+  }
+
+  .hero h1 {
+    font-size: 50px;
+  }
+
+  #mobile {
+    display: block;
+    align-content: center;
+    line-height: .5;
+  }
+
+  #mobile li {
+    display: center;
+    align-content: center;
+    text-align: center;
+  }
+}
