@@ -365,4 +365,8 @@ table h3 {
     align-content: center;
     text-align: center;
   }
+
+  table {
+    width: 200px;
+  }
 }
