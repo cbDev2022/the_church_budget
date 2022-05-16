@@ -368,5 +368,37 @@ table h3 {
 
   table {
     width: 200px;
+  } 
+  
+  th {
+    font-size: 18px;
+  }
+  
+  td {
+    font-size: 16px;
+  }
+  
+  table p {
+    font-size: 14px;
+  }
+  
+  table h3 {
+    font-size: 18px;
+  }
+
+  .pimg1 {
+    height: 500px;
+  }
+  
+  .pimg2 {
+    height: 200px;
+  }
+  
+  .pimg3 {
+    height: 200px;
+  }
+  
+  .pimg4 {
+    height: 200px;
   }
 }
