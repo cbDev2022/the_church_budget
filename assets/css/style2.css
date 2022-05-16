@@ -113,7 +113,6 @@ body {
   margin-bottom: 75px;
   display: flex;
   flex-wrap: wrap;
-  background-color: transparent;
 }
 
 .container-mission {
@@ -125,7 +124,8 @@ body {
 }
 
 .container-plans {
-  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .container h2 {
@@ -284,6 +284,10 @@ table h3 {
   text-align: center;
 }
 
+.calendly-inline-widget {
+  margin-top: 100px;
+}
+
 @media screen and (max-width: 930px) {
   .header {
     display: center;
@@ -404,9 +408,5 @@ table h3 {
   
   .pimg4 {
     height: 200px;
-  }
-
-  .container-plans {
-    margin-top: 300px;
   }
 }
