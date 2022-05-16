@@ -401,4 +401,8 @@ table h3 {
   .pimg4 {
     height: 200px;
   }
+
+  .container-plans {
+    margin-top: 300px;
+  }
 }
