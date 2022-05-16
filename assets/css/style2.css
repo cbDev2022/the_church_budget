@@ -157,6 +157,10 @@ body {
   height: 300px;
 }
 
+.photo img {
+  height: 300px;
+}
+
 .vertical-center {
   margin: 0;
   position: absolute;
